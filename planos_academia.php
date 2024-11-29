@@ -68,8 +68,8 @@
         </table>
     </div>
 
-    <a href="cadastrar_aluno.php" class="button">Continuar para o cadastro</a>
+    <a href="cadastrar_aluno.php" class="button">Volta pra pagina inicial</a>
 
-    <p>Você será encaminhado(a) para o processo cadastro.</p>
+    <p>Você será encaminhado(a) para pagina inicial.</p>
 </body>
 </html>
