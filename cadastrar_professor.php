@@ -52,7 +52,15 @@
                 <option value="crossfit">CrossFit</option>
             </select>
         </div>
-             
+        <div class="form-group">
+            <label for="horarios-disponiveis">Horários disponíveis</label>
+            <select id="horarios-disponiveis" name="horarios_disponiveis" required>
+                <option value="" disabled selected>Selecione o horário</option>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+        </div>
             <div class="form-group">
             <label for="sexo">Sexo</label>
         <select id="sexo" name="sexo" required>
