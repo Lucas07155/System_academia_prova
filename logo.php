@@ -17,7 +17,7 @@
             <li><a href="planos_academia.php">Planos</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
-            <li><a href="cadastrar_aluno.php">Entrar</a></li>
+            <li><a href="login_aluno.php">Entrar</a></li>
         </ul>
     </nav>
 </body>

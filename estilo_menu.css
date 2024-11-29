@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  .menu-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .menu-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .menu-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .btn-option {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .btn-option:hover {
+    background-color: #45a049;
+  }
+
+  .btn-option.professor {
+    background-color: #007bff;
+  }
+
+  .btn-option.professor:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-option.aluno {
+    background-color: #4caf50;
+  }
+
+  .btn-option.aluno:hover {
+    background-color: #45a049;
+  }
+
+  .btn-option.admin {
+    background-color: #ff5722;
+  }
+
+  .btn-option.admin:hover {
+    background-color: #e64a19;
+  }
