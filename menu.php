@@ -13,7 +13,7 @@
     <p>Selecione sua função para continuar:</p>
     <a href="login_professor.php" class="btn-option professor">Sou Professor</a>
     <a href="login_aluno.php" class="btn-option aluno">Sou Aluno</a>
-    <a href="login_admin.html" class="btn-option admin">Sou Administrador</a>
+    <a href="login_amd.php" class="btn-option admin">Sou Administrador</a>
   </div>
 </body>
 </html>
