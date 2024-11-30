@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center mb-4">Agora, vamos criar seu cadastro na Super Fit:</h1>
+        <h1 class="text-center mb-4"> Cadastro de Aluno - Academia Super Fit:</h1>
         <?php if (isset($_GET['sucesso'])): ?>
             <div class="alert alert-success"><?php echo $_GET['sucesso']; ?></div>
         <?php elseif (isset($_GET['erro'])): ?>

@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+
+    /* Adicionando um fundo */
+    background: url('fundo_img_png.png') no-repeat center center/cover;
+    color: #fd7a00; /* Cor do texto para contraste */
+}
+
+.menu-container {
+    background: rgba(0, 0, 0, 0.9); /* Fundo branco com transparência */
+    border-radius: 100px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgb(241, 97, 0);
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.menu-container h1 {
+    color: #ff6702c6;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.menu-container .btn {
+    margin: 10px 0;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 29px;
+    font-weight: bold;
+}
+
+.menu-container .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}

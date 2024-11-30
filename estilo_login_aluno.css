@@ -14,8 +14,8 @@ body {
 }
 
 .login-container {
-  background:  rgb(0, 0, 0);
-  border-radius: 10px;
+  background:rgb(0, 0, 0); /* Fundo semitransparente para contraste */
+  border-radius: 100px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 30px;
   width: 100%;
