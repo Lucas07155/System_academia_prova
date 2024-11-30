@@ -1,4 +1,4 @@
-   <!-- Desenvolvido por Lucas De Carvalho Praxedes -->
+    <!-- Desenvolvido por Lucas De Carvalho Praxedes -->
  <!-- DATA 22/10/2024-->
  <!-- Professor: Luís Alberto Pires de Oliveira -->
    
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar ALUNO</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="estilo_cads_aluno.css">
 </head>
 <body>
     <div class="container mt-5">
@@ -19,7 +19,7 @@
         <?php elseif (isset($_GET['erro'])): ?>
             <div class="alert alert-danger"><?php echo $_GET['erro']; ?></div>
         <?php endif; ?>
-        <form action="" method="POST">
+        <form action="processar_cadastro_aluno.php" method="POST">
         <div class="form-group">
                 <label for="cpf">CPF</label>
                 <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite seu documento" required>

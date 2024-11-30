@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px;
+    background: url('fundo_img_png.png') no-repeat center center/cover;
+    color: #fff; 
+}
+
+h1 {
+    color: #ed960a;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(252, 135, 0);
+    color: #ffffff; 
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #2393f5c6;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
