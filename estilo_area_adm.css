@@ -3,13 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
 
-    /* Adicionando um fundo */
     background: url('fundo_img_png.png') no-repeat center center/cover;
-    color: #fd7a00; /* Cor do texto para contraste */
+    color: #fd7a00; 
 }
 
 .menu-container {
-    background: rgba(0, 0, 0, 0.9); /* Fundo branco com transparência */
+    background: rgba(0, 0, 0, 0.9); 
     border-radius: 100px;
     padding: 30px;
     box-shadow: 0 4px 8px rgb(241, 97, 0);

@@ -1,7 +1,6 @@
 <?php
 require 'conexao.php';
 
-// Obtendo os dados do formulário
 $id = $_POST['id'];
 $cpf = $_POST['cpf'];
 $nome = $_POST['nome'];
@@ -12,7 +11,6 @@ $especialidade = $_POST['especialidade'];
 $horarios_disponiveis = $_POST['horarios_disponiveis'];
 $sexo = $_POST['sexo'];
 
-// Atualizando o registro no banco de dados
 $sql = $pdo->prepare("UPDATE professores SET 
     cpf = :cpf, 
     nome = :nome, 
