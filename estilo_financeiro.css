@@ -1,0 +1,53 @@
+/* Tema escuro */
+body {
+    background-color: #343a40; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara para contraste */
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #495057; /* Fundo da tabela em cinza escuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+    padding: 30px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #007bff; /* Azul vibrante para os cabeçalhos */
+    color: #fff;
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #6c757d; /* Cinza escuro para as células */
+    color: #fff; /* Texto em branco para contraste */
+}
+
+.table tr:nth-child(even) td {
+    background-color: #495057; /* Fundo cinza escuro para linhas pares */
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #343a40; /* Fundo mais escuro para linhas ímpares */
+}
+
+.btn-view {
+    color: #007bff; /* Cor azul para o botão */
+    text-decoration: none;
+}
+
+.btn-view:hover {
+    text-decoration: underline; /* Efeito de sublinhado no hover */
+}
+
+/* Adicionando efeitos no hover */
+.table td:hover {
+    background-color: #007bff; /* Azul vibrante ao passar o mouse */
+    color: #fff; /* Texto claro */
+}

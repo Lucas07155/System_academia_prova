@@ -11,7 +11,7 @@
 <div class="login-container">
     <h1>Login</h1>
     <p>Se você é membro da super fit, insira seus dados:</p>
-    <form>
+    <form action="areaaluno.php">
       <div class="form-group">
         <label for="email">E-mail:</label>
         <input type="email" id="email" placeholder="E-mail, CPF ou nome de usuário" required>

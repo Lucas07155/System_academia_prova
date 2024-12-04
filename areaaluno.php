@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="estilo_area_adm.css">
 </head>
 <body>
-    <div class="menu-container">
-        <h1>Bem-vindo, Administrador</h1>
+<div class="menu-container">
+        <h1>Bem-vindo aluno!</h1>
         <p>Escolha uma das opções abaixo:</p>
-        <a href="cadastrar_professor.php" class="btn btn-primary">Cadastrar Professor</a>
-        <a href="cadastrar_aluno.php" class="btn btn-primary">Cadastrar Aluno</a>
-        <a href="lista_aluno.php" class="btn btn-primary">Visualizar Lista de Alunos</a>
-        <a href="lista_professores.php" class="btn btn-primary">Visualizar Lista de Professores</a>
+        <a href="historicotreinos.php" class="btn btn-primary">Histórico de treinos</a>
+        <a href="cadastrar_aluno.php" class="btn btn-primary">Nossas unidades</a>
+        <a href="info_financeira.php" class="btn btn-primary">Informaçõs financeiras</a>
+        <a href="lista_professores.php" class="btn btn-primary">Acessar o suporte</a>
         <a href="logout.php" class="btn btn-primary">Sair</a>
     </div>
 </body>

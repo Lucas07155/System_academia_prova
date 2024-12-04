@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000; /* Alterando fundo para preto */
+    color: white; /* Alterando a cor do texto para branco */
+    background: url('fundo_img_png.png') no-repeat center center/cover;
+}
+
+.tabela-treinos {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 colunas para dias da semana e categorias */
+    gap: 1px;
+    width: 90%; /* Aumentando a largura da tabela para ocupar mais da tela */
+    max-width: 1200px; /* Definindo uma largura máxima */
+    background-color: #444; /* Alterando o fundo da tabela para um tom escuro */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cabecalho, .linha {
+    display: contents;
+}
+
+.celula, .categoria, .treino, .vazio {
+    background-color: #333; /* Escurecendo o fundo das células */
+    padding: 15px; /* Aumentando o padding para mais espaçamento */
+    text-align: center;
+    border: 1px solid #666; /* Aumentando a espessura da borda para melhor contraste */
+}
+
+.categoria {
+    background-color: #ffcc00; /* Cor da categoria permanece amarela */
+    font-weight: bold;
+}
+
+.treino {
+    background-color: #8ac6d1; /* Cor de fundo dos treinos */
+    font-weight: bold;
+    color: #fff; /* Mantendo o texto dos treinos branco */
+}
+
+.vazio {
+    background-color: #555; /* Cor mais escura para os espaços vazios */
+}
+
+@media (max-width: 768px) {
+    .tabela-treinos {
+        width: 100%; /* Ajustando a tabela para ocupar toda a largura em telas menores */
+    }
+}
