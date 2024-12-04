@@ -12,7 +12,7 @@
         <h1>Bem-vindo aluno!</h1>
         <p>Escolha uma das opções abaixo:</p>
         <a href="historicotreinos.php" class="btn btn-primary">Histórico de treinos</a>
-        <a href="cadastrar_aluno.php" class="btn btn-primary">Nossas unidades</a>
+        <a href="info_unidades.php" class="btn btn-primary">Nossas unidades</a>
         <a href="info_financeira.php" class="btn btn-primary">Informaçõs financeiras</a>
         <a href="lista_professores.php" class="btn btn-primary">Acessar o suporte</a>
         <a href="logout.php" class="btn btn-primary">Sair</a>

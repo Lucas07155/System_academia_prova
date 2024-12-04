@@ -6,7 +6,7 @@
     <title>Informações Financeiras - Pagamentos</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="estilo_login_professor.css">
-    <link rel="stylesheet" href="estilo_financeiro.css">
+    <link rel="stylesheet" href="estilo_info_financeiro.css">
 </head>
 <body>
 
@@ -59,6 +59,12 @@
                 </tr>
             </tbody>
         </table>
+
+        <!-- Botão de Voltar -->
+        <div class="text-center mt-4">
+            <a href="areaaluno.php" class="btn btn-secondary">Voltar</a>
+        </div>
+
     </div>
 
 </body>
