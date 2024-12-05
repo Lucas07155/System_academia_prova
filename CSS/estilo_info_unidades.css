@@ -1,0 +1,66 @@
+/* Tema escuro */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../imagens/fundo_img_png.png') no-repeat center center/cover; /* Fundo com imagem */
+    background-color: #343a40; /* Fundo escuro */
+    color: #fff; /* Texto claro para contraste */
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #495057; /* Fundo escuro para a tabela */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+    padding: 30px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #007bff; /* Azul vibrante para os cabeçalhos */
+    color: #fff; /* Texto branco */
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #6c757d; /* Fundo cinza escuro para células */
+    color: #fff; /* Texto branco para contraste */
+}
+
+.table tr:nth-child(even) td {
+    background-color: #495057; /* Fundo escuro para linhas pares */
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #343a40; /* Fundo ainda mais escuro para linhas ímpares */
+}
+
+.btn-view, .btn-edit {
+    color: #007bff; /* Cor azul para o botão */
+    text-decoration: none;
+}
+
+.btn-view:hover, .btn-edit:hover {
+    text-decoration: underline; /* Efeito de sublinhado no hover */
+}
+
+/* Botão de Voltar */
+.btn-secondary {
+    background-color: #6c757d; /* Cor cinza para o botão */
+    color: #fff; /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-secondary:hover {
+    background-color: #495057; /* Cor de fundo escura quando passa o mouse */
+}
