@@ -33,9 +33,6 @@
             </div>
             <button type="submit" class="btn btn-primary btn-block">Prosseguir</button>
         </form>
-
-        <div class="form-links text-center mt-3">
-        </div>
     </div>
 </body>
 </html>

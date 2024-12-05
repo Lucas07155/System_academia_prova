@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../CSS/estilo_info_unidades.css">
 </head>
 <body>
-
     <div class="container table-container">
         <h2 class="text-center mb-4">Unidades da Academia na Cidade</h2>
 
@@ -20,7 +19,6 @@
                     <th>Endereço</th>
                     <th>Telefone</th>
                     <th>Horário de Funcionamento</th>
-                    <th>Ações</th>
                 </tr>
             </thead>
             <tbody>
@@ -30,10 +28,6 @@
                     <td>Rua das Flores, 123 - Centro</td>
                     <td>(11) 1234-5678</td>
                     <td>Seg-Sex: 06:00 - 22:00</td>
-                    <td>
-                        <a href="#" class="btn-view">Ver detalhes</a> | 
-                        <a href="#" class="btn-edit">Editar</a>
-                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -41,10 +35,6 @@
                     <td>Avenida Brasil, 456 - Zona Sul</td>
                     <td>(11) 9876-5432</td>
                     <td>Seg-Sex: 07:00 - 20:00</td>
-                    <td>
-                        <a href="#" class="btn-view">Ver detalhes</a> | 
-                        <a href="#" class="btn-edit">Editar</a>
-                    </td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -52,10 +42,6 @@
                     <td>Rua Rio de Janeiro, 789 - Zona Norte</td>
                     <td>(11) 5678-1234</td>
                     <td>Seg-Sex: 06:30 - 21:00</td>
-                    <td>
-                        <a href="#" class="btn-view">Ver detalhes</a> | 
-                        <a href="#" class="btn-edit">Editar</a>
-                    </td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -63,14 +49,13 @@
                     <td>Rua das Pedras, 101 - Zona Oeste</td>
                     <td>(11) 4321-8765</td>
                     <td>Seg-Sex: 05:30 - 22:30</td>
-                    <td>
-                        <a href="#" class="btn-view">Ver detalhes</a> | 
-                        <a href="#" class="btn-edit">Editar</a>
-                    </td>
-                    
                 </tr>
             </tbody>
         </table>
-    </div>
+
+        <div class="text-center mt-4">
+            <a href="areaaluno.php" class="btn btn-primary">Voltar</a>
+        </div>
+    </div> 
 </body>
 </html>

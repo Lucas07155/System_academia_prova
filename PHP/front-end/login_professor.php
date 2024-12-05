@@ -27,14 +27,6 @@
       </div>
       <button type="submit" class="btn-submit">Prosseguir</button>
     </form>
-    <div class="form-links">
-      <p>
-        Esqueceu sua senha? <a href="#">Clique aqui para redefinir</a>.
-      </p>
-      <p>
-        Ainda não tem conta? <a href="cadastrar_professor.php">Cadastre-se</a>.
-      </p>
-    </div>
   </div>
 </body>
 </html>

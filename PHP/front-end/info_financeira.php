@@ -59,9 +59,8 @@
             </tbody>
         </table>
 
-        <!-- Botão de Voltar -->
-        <div class="text-center mt-4">
-            <a href="areaaluno.php" class="btn btn-secondary">Voltar</a>
+         <div class="text-center mt-4">
+            <a href="areaaluno.php" class="btn btn-primary">Voltar</a>
         </div>
 
     </div>

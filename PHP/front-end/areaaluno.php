@@ -16,7 +16,7 @@
         <a href="info_unidades.php" class="btn btn-primary">Nossas unidades</a>
         <a href="info_financeira.php" class="btn btn-primary">Informaçõs financeiras</a>
         <a href="suporte.php" class="btn btn-primary">Acessar o suporte</a>
-        <a href="login_aluno.php" class="btn btn-primary">Sair</a>
+        <a href="menu.php" class="btn btn-primary">Voltar pra tela de menu</a>
     </div>
 </body>
 </html>
