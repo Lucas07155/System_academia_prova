@@ -1,6 +1,13 @@
  create database academia;
  use academia;
  
+ create table administrador (
+    id_adm int auto_increment primary key,
+    usuario varchar(50),
+    senha varchar(50) 
+);
+insert into administrador (usuario, senha) values ('admin', '1234567');
+
  create table aluno(
  id_aluno int auto_increment primary key,
 	cpf varchar (14) unique,
@@ -31,14 +38,15 @@ CREATE TABLE treino (
     tipo_treino VARCHAR(50) NOT NULL,
     duracao INT NOT NULL, -- Duração em minutos
     intensidade VARCHAR(20) NOT NULL, -- Intensidade do treino
-    observacoes TEXT, -- Observações adicionais sobre o treino
-    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- Data e hora de criação do registro
+    observacoes TEXT
 );
 
 
 
  SELECT * FROM professores;
  SELECT * FROM aluno;
+ SELECT * FROM administrador;
+
  
  drop table aluno;
  
