@@ -11,10 +11,10 @@
     <div class="menu-container">
         <h1>Bem-vindo, Administrador</h1>
         <p>Escolha uma das opções abaixo:</p>
-        <a href="cadastrar_professor.php" class="btn btn-primary">Cadastrar Professor</a>
-        <a href="cadastrar_aluno.php" class="btn btn-primary">Cadastrar Aluno</a>
-        <a href="lista_alunos.php" class="btn btn-primary">Visualizar Lista de Alunos</a>
-        <a href="lista_professor.php" class="btn btn-primary">Visualizar Lista de Professores</a>
+        <a href="../front-end/cadastrar_professor.php" class="btn btn-primary">Cadastrar Professor</a>
+        <a href="../front-end/cadastrar_aluno.php" class="btn btn-primary">Cadastrar Aluno</a>
+        <a href="../crud/lista_alunos.php" class="btn btn-primary">Visualizar Lista de Alunos</a>
+        <a href="../crud/lista_professor.php" class="btn btn-primary">Visualizar Lista de Professores</a>
         <a href="../front-end/menu.php" class="btn btn-primary">Voltar para o menu principal</a>
      </div>
 </body>

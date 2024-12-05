@@ -15,12 +15,7 @@
 <body>
     <div class="container mt-5">
         <h1 class="text-center mb-4">Registrar treino - Academia Super Fit</h1>
-        <?php if (isset($_GET['sucesso'])): ?>
-            <div class="alert alert-success"><?php echo $_GET['sucesso']; ?></div>
-        <?php elseif (isset($_GET['erro'])): ?>
-            <div class="alert alert-danger"><?php echo $_GET['erro']; ?></div>
-        <?php endif; ?>
-        <form action="processar_cadastro_professor.php" method="POST">
+        <form action="../crud-registros-treinos/inserir.php" method="POST">
         <div class="form-group">
                 <label for="data_treino">Data do Treino</label>
                 <input type="date" name="data_treino" id="data_treino" class="form-control" required>

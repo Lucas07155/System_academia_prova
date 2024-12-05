@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excluir Aluno</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../CSS/excluir_aluno.css">
 </head>
 <body>
     <div class="container mt-5">
@@ -35,7 +36,7 @@
             <button type="submit" class="btn btn-sm btn-danger mt-3">Excluir Aluno</button>
         </form>
         <br>
-        <a href="../front-end/lista_alunos.php" class="btn btn-sm btn-danger">Voltar para Lista de Alunos</a>
+        <a href="lista_alunos.php" class="btn btn-sm btn-danger">Voltar para Lista de Alunos</a>
     </div>
 </body>
 </html>

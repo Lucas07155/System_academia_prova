@@ -14,7 +14,7 @@
         <a href="historicotreinos.php" class="btn btn-primary">Histórico de treinos</a>
         <a href="info_unidades.php" class="btn btn-primary">Nossas unidades</a>
         <a href="info_financeira.php" class="btn btn-primary">Informaçõs financeiras</a>
-        <a href="lista_professores.php" class="btn btn-primary">Acessar o suporte</a>
+        <a href="suporte.php" class="btn btn-primary">Acessar o suporte</a>
         <a href="login_aluno.php" class="btn btn-primary">Sair</a>
     </div>
 </body>

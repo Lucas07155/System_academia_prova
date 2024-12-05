@@ -6,7 +6,6 @@
     <title>Cadastrar professor</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../CSS/estilo_cds_prf.css">
-
 </head>
 <body>
     <div class="container mt-5">
@@ -68,6 +67,7 @@
         </select>
         </div>
             <button type="submit" class="btn btn-sm btn-primary">Realizar Cadastro</button>
+            <a href="area_adm.php" class="btn btn-sm btn-secondary mt-3">Voltar</a>
         </form>
     </div>
 </body>

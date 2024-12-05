@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações Financeiras - Pagamentos</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/estilo_login_professor.css">
-    <link rel="stylesheet" href="../CSS/estilo_info_financeiro.css">
+    <link rel="stylesheet" href="../../CSS/estilo_info_unidades.css">
 </head>
 <body>
 

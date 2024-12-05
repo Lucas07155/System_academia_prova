@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excluir Professor</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../CSS/excluir_aluno.css">
 </head>
 <body>
     <div class="container mt-5">
@@ -19,7 +20,7 @@
             if ($sql->rowCount() > 0) {
                 $dados = $sql->fetch(PDO::FETCH_ASSOC);
             } else {
-                header("Location: ../front-end/lista_professores.php");
+                header("Location: lista_professores.php");
                 exit;
             }
         ?>
@@ -35,7 +36,7 @@
             <button type="submit" class="btn btn-sm btn-danger mt-3">Excluir Professor</button>
         </form>
         <br>
-        <a href="../front-end/lista_professores.php" class="btn btn-sm btn-danger">Voltar para Lista de Professores</a>
+        <a href="lista_professores.php" class="btn btn-sm btn-danger">Voltar para Lista de Professores</a>
     </div>
 </body>
 </html>
