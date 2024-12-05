@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('fundo_img_png.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff7b00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table {
+    background-color: #fff;
+}
+
+.table thead th {
+    background-color: #ffffff;  
+    text-align: center;
+}
+
+.table tbody tr:hover {
+    background-color: #ffffff;      
+}
+
+.btn-danger {
+    background-color: #2393f5c6;
+    border-color:  #0056b3;
+}
+
+.btn-danger:hover {
+    background-color: #2393f5c6;
+    border-color: #000000;
+}
+
+.text-right a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
