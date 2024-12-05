@@ -1,6 +1,13 @@
  create database academia;
  use academia;
  
+ create table administrador (
+    id_adm int auto_increment primary key,
+    usuario varchar(50),
+    senha varchar(50) 
+);
+insert into administrador (usuario, senha) values ('admin', '1234567');
+
  create table aluno(
  id_aluno int auto_increment primary key,
 	cpf varchar (14) unique,

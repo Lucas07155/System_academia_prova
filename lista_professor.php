@@ -12,6 +12,8 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Professores</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo_lista_professor.css">
+
 </head>
 <body>
     <div class="container mt-5">
@@ -54,7 +56,9 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
             </table>
         </div>
         <div class="text-right mt-3">
-            <a href="cadastrar_professor.php" class="btn btn-danger">Cadastrar Novo Professor</a>
+             <a href="cadastrar_professor.php" class="btn btn-primary">Cadastrar Novo Professor</a>
+             <a href="area_adm.php" class="btn btn-primary">Voltar para o menu principal</a>
+
         </div>
     </div>
 </body>

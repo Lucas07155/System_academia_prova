@@ -1,8 +1,4 @@
-     <!-- Desenvolvido por Lucas De Carvalho Praxedes -->
- <!-- DATA 22/10/2024-->
- <!-- Professor: Luís Alberto Pires de Oliveira -->
-   
- <!DOCTYPE html> 
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">

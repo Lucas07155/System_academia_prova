@@ -13,9 +13,9 @@
         <p>Escolha uma das opções abaixo:</p>
         <a href="cadastrar_professor.php" class="btn btn-primary">Cadastrar Professor</a>
         <a href="cadastrar_aluno.php" class="btn btn-primary">Cadastrar Aluno</a>
-        <a href="lista_aluno.php" class="btn btn-primary">Visualizar Lista de Alunos</a>
-        <a href="lista_professores.php" class="btn btn-primary">Visualizar Lista de Professores</a>
-        <a href="logout.php" class="btn btn-primary">Sair</a>
-    </div>
+        <a href="lista_alunos.php" class="btn btn-primary">Visualizar Lista de Alunos</a>
+        <a href="lista_professor.php" class="btn btn-primary">Visualizar Lista de Professores</a>
+        <a href="menu.php" class="btn btn-primary">Voltar para o menu principal</a>
+     </div>
 </body>
 </html>
