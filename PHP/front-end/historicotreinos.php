@@ -16,9 +16,9 @@
 <div class="menu-container">
         <h1>Bem-vindo aluno!</h1>
         <p>Escolha uma das opções abaixo:</p>
-        <a href="grafico_treino.php" class="btn btn-primary">Ver meus treinos</a>
         <a href="registro_treino.php" class="btn btn-primary">Registrar novo treino</a>
-        <a href="areaaluno.php" class="btn btn-primary">Sair</a>
+        <a href="grafico_treino.php" class="btn btn-primary">Ver meus treinos</a>
+         <a href="areaaluno.php" class="btn btn-primary">Volta pra pagina anterior</a>
     </div>
 </body>
 </html>

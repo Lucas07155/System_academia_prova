@@ -60,16 +60,16 @@
                 </tr>
                 <tr>
                     <td><strong>Preço</strong></td>
-                    <td><strong>R$ 0,00*</strong><br>no 1º mês, depois<br>R$ 139,90/mês</td>
-                    <td><strong>R$ 129,90/mês</strong><br>12 meses de fidelidade</td>
-                    <td><strong>R$ 149,90/mês</strong><br>Sem fidelidade</td>
+                    <td><strong>R$ 0,00*</strong><br>no 1º mês, depois<br>R$ 150,90/mês</td>
+                    <td><strong>R$ 150,00/mês</strong><br>12 meses de fidelidade</td>
+                    <td><strong>R$ 150,90/mês</strong><br>Sem fidelidade</td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <a href="menu.php" class="button">Volta pra pagina inicial</a>
+    <a href="areaaluno.php" class="button">Volta pra pagina anterior</a>
 
-    <p>Você será encaminhado(a) para pagina inicial.</p>
+    <p>Você será encaminhado(a) para pagina anterior.</p>
 </body>
 </html>

@@ -11,6 +11,7 @@
 <div class="menu-container">
         <h1>Bem-vindo aluno!</h1>
         <p>Escolha uma das opções abaixo:</p>
+        <a href="planos_academia.php" class="btn btn-primary">planos da academia</a>
         <a href="historicotreinos.php" class="btn btn-primary">Histórico de treinos</a>
         <a href="info_unidades.php" class="btn btn-primary">Nossas unidades</a>
         <a href="info_financeira.php" class="btn btn-primary">Informaçõs financeiras</a>
