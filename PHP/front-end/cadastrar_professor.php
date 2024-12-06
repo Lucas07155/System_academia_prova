@@ -67,7 +67,8 @@
         </select>
         </div>
             <button type="submit" class="btn btn-sm btn-primary">Realizar Cadastro</button>
-            <a href="area_adm.php" class="btn btn-sm btn-secondary mt-3">Voltar</a>
+            <br>
+             <a href="area_adm.php" class="btn btn-sm btn-primary  mt-3">Voltar</a>
         </form>
     </div>
 </body>

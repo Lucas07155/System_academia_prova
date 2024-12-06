@@ -1,8 +1,4 @@
-    <!-- Desenvolvido por Lucas De Carvalho Praxedes -->
- <!-- DATA 22/10/2024-->
- <!-- Professor: Luís Alberto Pires de Oliveira -->
-   
- <!DOCTYPE html> 
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -64,7 +60,7 @@
         </select>
         </div>
             <button type="submit" class="btn btn-sm btn-primary">Realizar Cadastro</button>
-            <a href="area_adm.php" class="btn btn-sm btn-secondary mt-3">Voltar</a>
+            <br><a href="area_adm.php" class=" btn btn-sm btn-primary mt-3">Voltar</a>
         </form>
     </div>
 </body>
