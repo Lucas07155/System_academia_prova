@@ -12,11 +12,11 @@ body {
   height: 100vh;
   background: url('../imagens/fundo_img_png.png') no-repeat center center fixed;
   background-size: cover;
-  color: #fff;
+  color: #f3d8c7;
 }
 
 .menu-container {
-  background:rgb(0, 0, 0); /* Fundo semitransparente para contraste */
+  background:rgb(0, 0, 0); 
   border-radius: 100px;
   box-shadow: 0 4px 6px rgba(251, 155, 0, 0.944);
   padding: 30px;
