@@ -13,13 +13,13 @@
     <h1>Login</h1>
     <p>Se você é professor, insira seus dados:</p>
     <form action="area_adm.php">
-      <div class="form-group">
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" placeholder="E-mail, CPF ou nome de usuário" required>
-      </div>
-      <div class="form-group">
-        <label for="password">Senha:</label>
-        <input type="password" id="password" placeholder="Senha" required>
+    <div class="form-group">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite seu documento" required>
+            </div>
+    <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome completo" required>
       </div>
       <div class="form-group">
         <input type="checkbox" id="remember">

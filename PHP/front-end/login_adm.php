@@ -20,7 +20,7 @@
 
         <form action="../crud/verificar_login_adm.php" method="POST" class="mt-4">
             <div class="form-group">
-                <label for="usuario">E-mail:</label>
+                <label for="usuario">Usuario:</label>
                 <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" class="form-control" required>
             </div>
             <div class="form-group">

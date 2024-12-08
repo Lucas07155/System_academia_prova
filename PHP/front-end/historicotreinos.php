@@ -5,14 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Aluno da Academia</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../CSS/estilo_area_adm.css">
+    <link rel="stylesheet" href="../../CSS/estilo_historicotreinos.css">
 </head>
 <body>
-<?php if (isset($_GET['sucesso'])): ?>
-    <div class="alert alert-success"><?php echo $_GET['sucesso']; ?></div>
-<?php elseif (isset($_GET['erro'])): ?>
-    <div class="alert alert-danger"><?php echo $_GET['erro']; ?></div>
-<?php endif; ?>
 <div class="menu-container">
         <h1>Bem-vindo aluno!</h1>
         <p>Escolha uma das opções abaixo:</p>

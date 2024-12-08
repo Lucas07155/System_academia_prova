@@ -57,7 +57,7 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
         </div>
         <div class="text-right mt-3">
              <a href="../front-end/cadastrar_professor.php" class="btn btn-primary">Cadastrar Novo Professor</a>
-             <a href="../front-end/area_adm.php" class="btn btn-primary">Voltar para o menu principal</a>
+             <a href="../front-end/area_adm.php" class="btn btn-primary">Voltar para a página anterior</a>
 
         </div>
     </div>

@@ -68,8 +68,8 @@
         </table>
     </div>
 
-    <a href="areaaluno.php" class="button">Volta pra pagina anterior</a>
+    <a href="areaaluno.php" class="button">Voltar para a página anterior</a>
 
-    <p>Você será encaminhado(a) para pagina anterior.</p>
+    <p>Você será encaminhado(a) para página anterior.</p>
 </body>
 </html>
