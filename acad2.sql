@@ -32,17 +32,6 @@ insert into administrador (usuario, senha) values ('admin', '1234567');
     sexo enum('masculino', 'feminino', 'outro')
 );
 
-CREATE TABLE treino (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    data_treino DATE NOT NULL,
-    tipo_treino VARCHAR(50) NOT NULL,
-    duracao INT NOT NULL, -- Duração em minutos
-    intensidade VARCHAR(20) NOT NULL, -- Intensidade do treino
-    observacoes TEXT
-);
-
-
-
  SELECT * FROM professores;
  SELECT * FROM aluno;
  SELECT * FROM administrador;

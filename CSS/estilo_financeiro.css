@@ -1,15 +1,18 @@
-/* Tema escuro */
 body {
-    background-color: #343a40; /* Cor de fundo escura */
-    color: #fff; /* Cor do texto clara para contraste */
+    background-color: #530e0e; 
+    color: #e75500; 
     font-family: Arial, sans-serif;
+    background: url('../imagens/fundo_img_png.png') no-repeat center center fixed; 
+    background-size: cover; 
+    height: 100vh;  
+    margin: 0;  
 }
 
 .table-container {
     margin-top: 50px;
     border-radius: 10px;
-    background-color: #495057; /* Fundo da tabela em cinza escuro */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+    background-color: rgba(17, 20, 22, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 30px;
 }
 
@@ -19,35 +22,33 @@ body {
 }
 
 .table th {
-    background-color: #007bff; /* Azul vibrante para os cabeçalhos */
+    background-color: #e25c02;
     color: #fff;
     font-weight: bold;
 }
 
 .table td {
-    background-color: #6c757d; /* Cinza escuro para as células */
-    color: #fff; /* Texto em branco para contraste */
+    background-color: #6c757d;
+    color: #fff;
 }
 
 .table tr:nth-child(even) td {
-    background-color: #495057; /* Fundo cinza escuro para linhas pares */
+    background-color: #495057;
 }
+
 
 .table-striped tbody tr:nth-child(odd) {
-    background-color: #343a40; /* Fundo mais escuro para linhas ímpares */
+    background-color: #343a40;
 }
 
+
 .btn-view {
-    color: #007bff; /* Cor azul para o botão */
+    color: #007bff;
     text-decoration: none;
 }
 
 .btn-view:hover {
-    text-decoration: underline; /* Efeito de sublinhado no hover */
+    text-decoration: underline;
 }
 
-/* Adicionando efeitos no hover */
-.table td:hover {
-    background-color: #007bff; /* Azul vibrante ao passar o mouse */
-    color: #fff; /* Texto claro */
-}
+ 

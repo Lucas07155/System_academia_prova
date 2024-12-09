@@ -11,8 +11,8 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Professores</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../CSS/estilo_lista_professor.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../../CSS/estilo_lista_professor.css">
 
 </head>
 <body>
@@ -47,8 +47,8 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
                             <td><?php echo $professor['horarios_disponiveis']; ?></td>
                             <td><?php echo $professor['sexo']; ?></td>
                             <td>
-                                <a href="editar_professor.php?id=<?php echo $professor['id_professor']; ?>" class="btn btn-sm btn-danger">Editar</a><br><br>
-                                <a href="excluir_professor.php?id=<?php echo $professor['id_professor']; ?>" class="btn btn-sm btn-danger">Excluir</a>
+                                <a href="editar_professor.php?id=<?php echo $professor['id_professor']; ?>" class="btn btn-sm btn-primary">Editar</a><br><br>
+                                <a href="excluir_professor.php?id=<?php echo $professor['id_professor']; ?>" class="btn btn-sm btn-primary">Excluir</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>

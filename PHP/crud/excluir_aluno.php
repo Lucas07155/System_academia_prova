@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excluir Aluno</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../CSS/excluir_aluno.css">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ01F2QQx82M6x0s7ce1m9d1cv02g5sn6u1cfvnL3hR6g2kD1d0cPzDohpGJf" crossorigin="anonymous">
+     <link rel="stylesheet" href="../../CSS/estilo_excluir_professor.css">
+
+ </head>
 <body>
     <div class="container mt-5">
         <h1 class="text-center mb-4">Excluir Aluno</h1>
@@ -20,12 +21,12 @@
             if ($sql->rowCount() > 0) {
                 $dados = $sql->fetch(PDO::FETCH_ASSOC);
             } else {
-                header("Location: lista_alunos.php");
+                header("Location:../crud/lista_alunos.php");
                 exit;
             }
         ?>
         <h3 class="text-center">Tem certeza que deseja excluir o aluno abaixo?</h3>
-        <form action="excluindo_aluno.php" method="POST">
+        <form action="../crud/excluindo_aluno.php" method="POST">
             <input type="hidden" name="id" value="<?= $dados['id_aluno']; ?>">
             <label for="nome">
                 Nome <input type="text" class="form-control" name="nome" value="<?= $dados['nome']; ?>" readonly>

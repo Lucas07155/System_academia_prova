@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Aluno</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/estilo_editar_professor.css">
     
 </head>
 <body>
@@ -22,11 +22,11 @@
             if ($sql->rowCount() > 0) {
                 $dados = $sql->fetch(PDO::FETCH_ASSOC);
             } else {
-                header("Location: lista_alunos.php");
+                header("Location:../crud/lista_alunos.php");
                 exit;
             }     
         ?>
-        <form action="editando_aluno.php" method="POST">
+        <form action="../crud/editando_aluno.php" method="POST">
             <input type="hidden" name="id" value="<?= $dados['id_aluno']; ?>">
             <div class="form-group">
                 <label for="cpf">CPF</label>
@@ -69,10 +69,10 @@
                     <option value="outro" <?= $dados['sexo'] == 'outro' ? 'selected' : ''; ?>>Outro</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-danger">Editar Aluno</button>
+            <button type="submit" class="btn btn-primary">Editar Aluno</button>
         </form>
         <br>
-        <a href="../front-end/lista_alunos.php" class="btn btn-danger">Voltar para Lista de Alunos</a>
+        <a href="../crud/lista_alunos.php" class="btn btn-primary">Voltar para Lista de Alunos</a>
     </div>
 </body>
 </html>

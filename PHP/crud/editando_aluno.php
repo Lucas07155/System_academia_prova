@@ -34,6 +34,6 @@ $sql->bindValue(':id', $id);
 
 $sql->execute();
 
-header("Location: ../front-end/lista_alunos.php");
+header("Location:../crud/lista_alunos.php");
 exit;
 ?>

@@ -11,8 +11,8 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Alunos</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../CSS/estilo_lista_aluno.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+       <link rel="stylesheet" href="../../CSS/estilo_lista_aluno.css">
 </head>
 <body>
     <div class="container mt-5">
@@ -46,8 +46,8 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
                             <td><?php echo $aluno['endereco']; ?></td>
                             <td><?php echo $aluno['sexo']; ?></td>
                             <td>
-                                <a href="editar_aluno.php?id=<?php echo $aluno['id_aluno']; ?>" class="btn btn-sm btn-danger">Editar</a>
-                                <a href="excluir_aluno.php?id=<?php echo $aluno['id_aluno']; ?>" class="btn btn-sm btn-danger">Excluir</a>
+                                <a href="editar_aluno.php?id=<?php echo $aluno['id_aluno']; ?>" class="btn btn-sm btn-primary">Editar</a>
+                                <a href="excluir_aluno.php?id=<?php echo $aluno['id_aluno']; ?>" class="btn btn-sm btn-primary">Excluir</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>

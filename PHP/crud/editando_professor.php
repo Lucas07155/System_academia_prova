@@ -33,6 +33,6 @@ $sql->bindValue(':sexo', $sexo);
 $sql->bindValue(':id', $id);
 $sql->execute();
 
-header("Location: ../front-end/lista_professores.php");
+header("Location:../crud/lista_professor.php");
 exit;
 ?>

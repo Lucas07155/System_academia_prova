@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Professor</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../CSS/estilo_editar_professor.css">
 </head>
 <body>
     <div class="container mt-5">
@@ -12,9 +13,11 @@
         <?php 
             require 'conexao.php';
             
+           
             $id = $_REQUEST["id"];
             $dados = [];
 
+          
             $sql = $pdo->prepare("SELECT * FROM professores WHERE id_professor = :id");
             $sql->bindValue(":id", $id);
             $sql->execute();
@@ -22,12 +25,13 @@
             if ($sql->rowCount() > 0) {
                 $dados = $sql->fetch(PDO::FETCH_ASSOC);
             } else {
-                header("Location: lista_professores.php");
+                header("Location: lista_professor.php");
                 exit;
             }
         ?>
 
-        <form action="editando_professor.php" method="POST">
+        
+        <form action="../crud/editando_professor.php" method="POST">
             <input type="hidden" name="id" value="<?= $dados['id_professor']; ?>">
 
             <div class="form-group">
@@ -84,10 +88,10 @@
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-danger">Salvar Alterações</button>
+            <button type="submit" class="btn btn-primary">Salvar Alterações</button>
         </form>
         <br>
-        <a href="lista_professores.php" class="btn btn-danger">Voltar para Lista</a>
+        <a href="../crud/lista_professor.php" class="btn btn-primary">Voltar para Lista</a>
     </div>
 </body>
 </html>
