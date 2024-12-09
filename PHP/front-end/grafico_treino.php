@@ -4,48 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda de Treinos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../CSS/styles.css">
 </head>
 <body>
-    <div class="tabela-treinos">
-        <div class="cabecalho">
-            <div class="celula"></div>
-            <div class="celula">SEG</div>
-            <div class="celula">TER</div>
-            <div class="celula">QUA</div>
-            <div class="celula">QUI</div>
-            <div class="celula">SEX</div>
-            <div class="celula">SÁB</div>
-            <div class="celula">DOM</div>
-        </div>
-        
-        <div class="linha">
-            <div class="categoria">Cardio</div>
-            <div class="treino" style="grid-column: span 2;">Corrida</div>
-            <div class="vazio"></div>
-            <div class="treino">Bicicleta</div>
-            <div class="vazio"></div>
-            <div class="vazio"></div>
-            <div class="treino" style="grid-column: span 3;">Caminhada</div>
-        </div>
-        
-        <div class="linha">
-            <div class="categoria">Força</div>
-            <div class="vazio"></div>
-            <div class="treino">Musculação</div>
-            <div class="treino" style="grid-column: span 2;">Crossfit</div>
-            <div class="vazio"></div>
-            <div class="treino">Pilates</div>
-            <div class="vazio"></div>
-        </div>
+<div class="container">
+        <h1 class="text-center mb-4">Agenda de Treinos</h1>
+        <p class="text-center">Confira sua programação de treinos para a semana:</p>
+        <table class="table table-bordered">
+            <thead class="text-center">
+                <tr>
+                    <th>Horário</th>
+                    <th>conograma/semana</th>
+                    <th>seg</th>
+                    <th>ter</th>
+                    <th>qua</th>
+                    <th>qui</th>
+                    <th>sex</th>
+                    <th>sabado</th>
+                    <th>dom</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time-cell">07:00 - 08:00</td>
+                    <td class="category-cell">Cardio</td>
+                    <td class="training-cell">Corrida</td>
+                    <td class="training-cell">Corrida</td>
+                    <td class="empty-cell"></td>
+                    <td class="training-cell">Bicicleta</td>
+                    <td class="empty-cell"></td>
+                    <td class="empty-cell"></td>
+                    <td class="training-cell">Caminhada</td>
 
-        <div class="linha">
-            <div class="categoria">Flexibilidade</div>
-            <div class="vazio"></div>
-            <div class="treino" style="grid-column: span 3;">Yoga</div>
-            <div class="vazio"></div>
-            <div class="treino">Alongamento</div>
-            <div class="vazio"></div>
+                </tr>
+                <tr>
+                    <td class="time-cell">09:00 - 10:00</td>
+                    <td class="category-cell">Força</td>
+                    <td class="empty-cell"></td>
+                    <td class="training-cell">Musculação</td>
+                    <td class="training-cell">Crossfit</td>
+                    <td class="training-cell">Crossfit</td>
+                    <td class="empty-cell"></td>
+                    <td class="training-cell">Musculação</td>
+                    <td class="empty-cell"></td>
+                </tr>
+                <tr>
+                    <td class="time-cell">18:00 - 19:00</td>
+                    <td class="category-cell">Flexibilidade</td>
+                    <td class="empty-cell"></td>
+                    <td class="training-cell">Yoga</td>
+                    <td class="training-cell">Yoga</td>
+                    <td class="training-cell">Yoga</td>
+                    <td class="empty-cell"></td>
+                    <td class="training-cell">Alongamento</td>
+                    <td class="training-cell">Pilates</td>
+
+                 </tr>
+            </tbody>
+        </table>
+        <div class="text-center mt-4">
+            <a href="areaaluno.php" class="btn btn-primary">Volta pra pagina anterior</a>
         </div>
     </div>
 </body>

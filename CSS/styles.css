@@ -1,55 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #000; /* Alterando fundo para preto */
-    color: white; /* Alterando a cor do texto para branco */
-    background: url('../imagens/fundo_img_png.png') no-repeat center center/cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background: url('../imagens/fundo_img_png.png') no-repeat center center fixed;
+     background-size: cover;
+     color: #fdfdfd;
 }
 
-.tabela-treinos {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr); /* 8 colunas para dias da semana e categorias */
-    gap: 1px;
-    width: 90%; /* Aumentando a largura da tabela para ocupar mais da tela */
-    max-width: 1200px; /* Definindo uma largura máxima */
-    background-color: #444; /* Alterando o fundo da tabela para um tom escuro */
-    border-radius: 8px;
-    overflow: hidden;
+.container {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(255, 136, 0, 0.858);
+
 }
 
-.cabecalho, .linha {
-    display: contents;
+.table {
+    margin-top: 20px;
+    color: #ffffff;
 }
 
-.celula, .categoria, .treino, .vazio {
-    background-color: #333; /* Escurecendo o fundo das células */
-    padding: 15px; /* Aumentando o padding para mais espaçamento */
+.table thead {
+    background-color: #fd5d00;
+}
+
+.table tbody tr {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.table tbody tr:hover {
+    background-color:0;
+}
+
+.category-cell {
+    font-weight: bold;
+    background-color: #444444;
     text-align: center;
-    border: 1px solid #666; /* Aumentando a espessura da borda para melhor contraste */
 }
 
-.categoria {
-    background-color: #ffcc00; /* Cor da categoria permanece amarela */
+.time-cell {
     font-weight: bold;
+    background-color: rgba(255, 103, 2, 0);
+    text-align: center;
 }
 
-.treino {
-    background-color: #8ac6d1; /* Cor de fundo dos treinos */
-    font-weight: bold;
-    color: #fff; /* Mantendo o texto dos treinos branco */
+.empty-cell {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-.vazio {
-    background-color: #555; /* Cor mais escura para os espaços vazios */
-}
-
-@media (max-width: 768px) {
-    .tabela-treinos {
-        width: 100%; /* Ajustando a tabela para ocupar toda a largura em telas menores */
-    }
+.training-cell {
+    background-color: #0a1520;
+    color: #ffffff;
+    text-align: center;
 }

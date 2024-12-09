@@ -54,8 +54,8 @@
         </table>
 
         <div class="text-center mt-4">
-            <a href="areaaluno.php" class="btn btn-primary">Voltar</a>
-        </div>
+        <a href="areaaluno.php" class="btn btn-primary">Volta pra pagina anterior</a>
+         </div>
     </div> 
 </body>
 </html>

@@ -18,7 +18,7 @@
             <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5" required></textarea>
 
             <button type="submit">Enviar</button>
- 
+
         </form>
     </div>
 

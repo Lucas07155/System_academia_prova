@@ -68,7 +68,7 @@
         </div>
             <button type="submit" class="btn btn-sm btn-primary">Realizar Cadastro</button>
             <br>
-             <a href="area_adm.php" class="btn btn-sm btn-primary  mt-3">Voltar</a>
+             <a href="area_adm.php" class="btn btn-sm btn-primary  mt-3">Volta pra pagina anterior</a>
         </form>
     </div>
 </body>
