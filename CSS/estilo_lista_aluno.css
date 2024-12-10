@@ -17,8 +17,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2rem;
-    font-weight: bold;
-}
+    font-weight: bold; 
 h2 {
     color: #ff5e00;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
