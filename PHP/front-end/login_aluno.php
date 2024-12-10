@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="../../CSS/estilo_login_adm.css">
 </head>
 <body>
-<header class="bg-primary text-white text-center py-3">
-        <h1>Academia Super Fit</h1>
-    </header>
 <div class="login-container">
     <h1>Login</h1>
     <p>Se você é membro da super fit, insira seus dados:</p>
