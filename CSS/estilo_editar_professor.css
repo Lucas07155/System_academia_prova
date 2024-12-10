@@ -3,8 +3,22 @@ body {
     background: url('../imagens/fundo_img_png.png') no-repeat center center fixed;
     background-size: cover;
     color: #f7f7f7;
+    margin: 0;
 }
 
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
 
 .container {
     background-color: rgba(2, 2, 2, 0.9);
@@ -13,24 +27,18 @@ body {
     max-width: 900px;
     margin: 0 auto;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(252, 135, 0, 0.6);
+
 }
 
-h1 {
-    color: #f86300; 
+h2 {
+    color: #f86300;
     font-size: 36px;
-    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-
-form {
-    margin-top: 20px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
+form .form-group label {
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
@@ -38,30 +46,28 @@ label {
     margin-bottom: 8px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="date"],
-select {
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form select {
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     padding: 12px;
     width: 100%;
     font-size: 16px;
-    margin-bottom: 15px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="date"]:focus,
-select:focus {
-    border-color: #d9534f; 
+form input:focus,
+form select:focus {
+    border-color: #d9534f;
     outline: none;
 }
 
 button[type="submit"],
 a.btn {
-    background-color:  #1a4cd4;
+    background-color: #1a4cd4;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -73,33 +79,43 @@ a.btn {
     text-align: center;
 }
 
-button[type="submit"]:hover,
+button:hover,
 a.btn:hover {
-    background-color: #03206e;
+    background-color:0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
 }
 
 @media (max-width: 768px) {
     .container {
         padding: 20px;
-        max-width: 90%;
     }
 
-    h1 {
+    h2 {
         font-size: 28px;
     }
 
-    label {
+    form label {
         font-size: 16px;
     }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="date"],
-    select {
+    form input,
+    form select {
         font-size: 14px;
     }
 
-    button[type="submit"] {
+    button {
         font-size: 14px;
     }
 }

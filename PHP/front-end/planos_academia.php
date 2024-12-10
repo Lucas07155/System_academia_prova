@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../../CSS/estilo_plano.css">
 </head>
 <body>
+<header class="bg-primary text-white text-center py-3">
+        <h1>Academia Super Fit</h1>
+    </header>
     <h1>Conheça os planos desta academia!</h1>
     <p>Os valores apresentados abaixo são promocionais. Aproveite!</p>
 

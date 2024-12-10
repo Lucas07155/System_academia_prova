@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../../CSS/estilo_info_unidades.css">
 </head>
 <body>
+<header class="bg-primary text-white text-center py-3">
+        <h1>Academia Super Fit</h1>
+    </header>
     <div class="container table-container">
         <h2 class="text-center mb-4">Unidades da Academia na Cidade</h2>
 

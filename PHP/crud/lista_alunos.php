@@ -15,8 +15,11 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
        <link rel="stylesheet" href="../../CSS/estilo_lista_aluno.css">
 </head>
 <body>
+<header class="bg-primary text-white text-center py-3">
+        <h1>Academia Super Fit</h1>
+    </header>
     <div class="container mt-5">
-        <h1 class="text-center mb-4">Lista de Alunos</h1>
+        <h2 class="text-center mb-4">Lista de Alunos</h2>
         <div class="table-responsive">
             <table class="table table-bordered table-hover">
                 <thead class="thead-light">
@@ -47,7 +50,7 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
                             <td><?php echo $aluno['sexo']; ?></td>
                             <td>
                                 <a href="editar_aluno.php?id=<?php echo $aluno['id_aluno']; ?>" class="btn btn-sm btn-primary">Editar</a>
-                                <a href="excluir_aluno.php?id=<?php echo $aluno['id_aluno']; ?>" class="btn btn-sm btn-primary">Excluir</a>
+                                <br><br><a href="excluir_aluno.php?id=<?php echo $aluno['id_aluno']; ?>" class="btn btn-sm btn-primary">Excluir</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>

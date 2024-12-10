@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../../CSS/estilo_grafico_treino.css">
 </head>
 <body>
+<header class="bg-primary text-white text-center py-3">
+        <h1>Academia Super Fit</h1>
+    </header>
 <div class="container">
         <h1 class="text-center mb-4">Agenda de Treinos</h1>
         <p class="text-center">Confira sua programação de treinos para a semana:</p>

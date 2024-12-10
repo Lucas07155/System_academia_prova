@@ -1,26 +1,69 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    text-align: center;
-    margin: 20px;
     background: url('../imagens/fundo_img_png.png') no-repeat center center/cover;
-    color: #fff; 
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #ed960a;
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.8); 
-    border-radius: 11px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgb(252, 135, 0);
-    color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(252, 135, 0, 0.6);
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+h2 {
+    color: #f57a00;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .form-group label {
     font-weight: bold;
+    color: #f3f2f1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    color: #666;
+}
+
+select {
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
 }
 
 button {
@@ -28,8 +71,53 @@ button {
     border: none;
     color: #ffffff;
     font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:  #2393f5c6;
+}
+
+a.btn {
+    background-color:  #2393f5c6;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #0d6efd;
+}
+
+.alert {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.alert-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.alert-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.alert-info {
+    background-color: #ee0d0d;
+    color: #fff;
+}
+
+aside .alert {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }

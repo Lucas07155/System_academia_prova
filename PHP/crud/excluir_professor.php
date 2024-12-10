@@ -8,8 +8,11 @@
      <link rel="stylesheet" href="../../CSS/estilo_excluir_professor.css">
 </head>
 <body>
+<header class="bg-primary text-white text-center py-3">
+        <h1>Academia Super Fit</h1>
+    </header>
     <div class="container mt-5">
-        <h1 class="text-center mb-4">Excluir Professor</h1>
+        <h2 class="text-center mb-4">Excluir Professor</h2>
         <?php 
             require 'conexao.php';
             $id = $_REQUEST["id"];

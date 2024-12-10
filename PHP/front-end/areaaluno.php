@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../../CSS/estilo_area_adm.css">
 </head>
 <body>
+<header class="bg-primary text-white text-center py-3">
+        <h1>Academia Super Fit</h1>
+    </header>
 <div class="menu-container">
         <h1>Bem-vindo aluno!</h1>
         <p>Escolha uma das opções abaixo:</p>
