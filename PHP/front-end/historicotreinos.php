@@ -8,14 +8,11 @@
     <link rel="stylesheet" href="../../CSS/estilo_historicotreinos.css">
 </head>
 <body>
-<header class="bg-primary text-white text-center py-3">
-        <h1>Academia Super Fit</h1>
-    </header>
 <div class="menu-container">
-        <h1>Bem-vindo aluno!</h1>
+        <h1>!</h1>
         <p>Escolha uma das opções abaixo:</p>
-        <a href="registro_treino.php" class="btn btn-primary">Registrar novo treino</a>
-        <a href="grafico_treino.php" class="btn btn-primary">Ver meus treinos</a>
+         <a href="grafico_treino.php" class="btn btn-primary">Ver meus treinos</a>
+         <a href="registro_treino.php" class="btn btn-primary">Registrar novo treino</a>
          <a href="areaaluno.php" class="btn btn-primary">Volta pra pagina anterior</a>
     </div>
 </body>

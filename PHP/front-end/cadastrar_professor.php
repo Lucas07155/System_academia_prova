@@ -8,15 +8,9 @@
     <link rel="stylesheet" href="../../CSS/estilo_cds_prf.css">
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-3">
-        <h1>Academia Super Fit</h1>
-        <nav>
-        </nav>
-    </header>
-
     <main class="container mt-5">
         <section>
-            <h2 class="text-center mb-4">Cadastro de Professor</h2>
+            <h1 class="text-center mb-4">Cadastro de Professor</h1>
             <?php if (isset($_GET['sucesso'])): ?>
                 <div class="alert alert-success"><?php echo $_GET['sucesso']; ?></div>
             <?php elseif (isset($_GET['erro'])): ?>

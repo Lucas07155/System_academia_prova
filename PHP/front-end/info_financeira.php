@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="../../CSS/estilo_financeiro.css">
 </head>
 <body>
-<header class="bg-primary text-white text-center py-3">
-        <h1>Academia Super Fit</h1>
-    </header>
     <div class="container table-container">
-        <h2 class="text-center mb-4">Histórico de Pagamentos do Aluno</h2>
+        <h1 class="text-center mb-4">Histórico de Pagamentos do Aluno</h1>
 
         <table class="table table-striped table-bordered">
             <thead>

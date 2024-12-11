@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Professor</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../CSS/estilo_editar_professor.css">
+    <link rel="stylesheet" href="../../CSS/estilo_cds_prf.css">
 </head>
 <body>
     <header>

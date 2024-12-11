@@ -8,13 +8,9 @@
     <link rel="stylesheet" href="../../CSS/estilo_plano.css">
 </head>
 <body>
-<header class="bg-primary text-white text-center py-3">
-        <h1>Academia Super Fit</h1>
-    </header>
-    <h1>Conheça os planos desta academia!</h1>
-    <p>Os valores apresentados abaixo são promocionais. Aproveite!</p>
-
     <div class="table-container">
+    <br><h1>Conheça os planos desta academia!</h1>
+    <p>Os valores apresentados abaixo são promocionais. Aproveite!</p>
         <table>
             <thead>
                 <tr>
@@ -69,10 +65,7 @@
                 </tr>
             </tbody>
         </table>
-    </div>
-
+    </div><br>
     <a href="areaaluno.php" class="button">Voltar para a página anterior</a>
-
-    <p>Você será encaminhado(a) para página anterior.</p>
 </body>
 </html>
