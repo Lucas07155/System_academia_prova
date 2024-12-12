@@ -6,6 +6,7 @@
     <title>Editar Professor</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../CSS/estilo_cds_prf.css">
+        <!-- Aqui o úsuario vai preencher as suas alterações para editar o registro do professor -->
 </head>
 <body>
     <header>

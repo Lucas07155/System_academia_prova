@@ -1,6 +1,6 @@
 <?php
 require '../conexao.php';
-
+//CRUD para editar o professor no banco de dados MySQL
 $id = $_POST['id'];
 $cpf = $_POST['cpf'];
 $nome = $_POST['nome'];

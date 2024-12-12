@@ -6,9 +6,9 @@
     <title>Excluir Aluno</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ01F2QQx82M6x0s7ce1m9d1cv02g5sn6u1cfvnL3hR6g2kD1d0cPzDohpGJf" crossorigin="anonymous">
      <link rel="stylesheet" href="../../../CSS/estilo_excluir_professor.css">
-
  </head>
 <body>
+        <!-- Aqui vai imprimir os alunos para poder o adm excluir -->
 <header class="bg-primary text-white text-center py-3">
         <h1>Academia Super Fit</h1>
     </header>

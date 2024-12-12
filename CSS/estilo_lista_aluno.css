@@ -2,24 +2,12 @@ body {
     font-family: Arial, sans-serif;
     background: url('../imagens/fundo_img_png.png') no-repeat center center fixed;
     background-size: cover;
-    color: #333;
+    color: #cf2626;
     margin: 0;
     padding: 0;
 }
-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2rem;
-    font-weight: bold; 
-h2 {
-    color: #ff5e00;
+h1{
+    color: #ff7b00;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -35,23 +23,22 @@ h2 {
 }
 
 .table thead th {
-    background-color: #f8d7da; 
-    color: #721c24;
+    background-color: #ffffff;  
     text-align: center;
 }
 
 .table tbody tr:hover {
-    background-color: #f5c6cb;
+    background-color: #ffffff;      
 }
 
 .btn-danger {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #2393f5c6;
+    border-color:  #0056b3;
 }
 
 .btn-danger:hover {
-    background-color: #c82333;
-    border-color: #bd2130;
+    background-color: #2393f5c6;
+    border-color: #000000;
 }
 
 .text-right a {

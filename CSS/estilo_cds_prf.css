@@ -87,12 +87,12 @@ a.btn:hover {
 }
 
 .alert-success {
-    background-color: #28a745;
+    background-color: 0;
     color: #fff;
 }
 
 .alert-danger {
-    background-color: #dc3545;
+    background-color: 0;
     color: #fff;
 }
 

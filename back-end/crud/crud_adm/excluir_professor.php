@@ -8,6 +8,7 @@
      <link rel="stylesheet" href="../../../CSS/estilo_excluir_professor.css">
 </head>
 <body>
+    <!-- Aqui vai imprimir os professores para poder o adm excluir -->
 <header class="bg-primary text-white text-center py-3">
         <h1>Academia Super Fit</h1>
     </header>

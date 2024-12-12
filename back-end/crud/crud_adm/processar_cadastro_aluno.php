@@ -1,7 +1,7 @@
 <?php
 require '../conexao.php';
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//Esse codigo vai da insert no banco de dados MySql na tabela 'aluno'
+if ($_SERVER["REQUEST_METHOD"] == "POST") {   
     $cpf = $_POST['cpf'];
     $nome = $_POST['nome'];
     $data_nascimento = $_POST['data_nascimento'];

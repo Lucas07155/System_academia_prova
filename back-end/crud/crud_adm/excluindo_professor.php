@@ -1,4 +1,5 @@
 <?php
+//Aqui vai efetuar a exclusão do cadastro do professor
 require '../conexao.php';
 $id = $_POST['id'];
 

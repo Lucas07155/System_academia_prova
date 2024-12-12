@@ -15,11 +15,8 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC); //Recupera as linhas de consulta reto
        <link rel="stylesheet" href="../../../CSS/estilo_lista_aluno.css">
 </head>
 <body>
-<header class="bg-primary text-white text-center py-3">
-        <h1>Academia Super Fit</h1>
-    </header>
     <div class="container mt-5">
-        <h2 class="text-center mb-4">Lista de Alunos</h2>
+        <h1 class="text-center mb-4">Lista de Alunos</h1>
         <div class="table-responsive">
             <table class="table table-bordered table-hover">
                 <thead class="thead-light">
@@ -58,7 +55,7 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC); //Recupera as linhas de consulta reto
             </table>
         </div>
         <div class="text-right mt-3">
-            <a href="../../../front-end/area_do_adm/cadastrar_aluno.php" class="btn btn-primary">Cadastrar Novo Aluno</a>
+            <a href="../../../front-end/area_do_adm/cadastrar_aluno.html" class="btn btn-primary">Cadastrar Novo Aluno</a>
             <a href="../../../front-end/area_do_adm/area_adm.html" class="btn btn-primary">Voltar para a página anterior</a>
         </div>
     </div>

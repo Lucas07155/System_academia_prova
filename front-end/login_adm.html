@@ -8,17 +8,13 @@
     <link rel="stylesheet" href="../CSS/estilo_login_adm.css">
 </head>
 <body>
+    <!-- Aqui o adm irá fazer o seu login -->
     <!-- O CRUD de verificação desse codigo é o verificador_login_adm.php -->
     <div class="login-container container mt-5"> 
         <h1 class="text-center">Login do Administrador</h1>
         <p class="text-center">Olá administrador, seja bem-vindo de volta:</p>
 
-        <?php if (isset($_GET['erro'])): ?>
-            <div class="alert alert-danger text-center">
-                <?php echo htmlspecialchars($_GET['erro']); ?>
-            </div>
-        <?php endif; ?>
-
+       
         <form action="../back-end/crud/verificar_login/verificar_login_adm.php" method="POST" class="mt-4">
             <div class="form-group">
                 <label for="usuario">Usuario:</label>
