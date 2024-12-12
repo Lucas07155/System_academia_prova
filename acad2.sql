@@ -20,6 +20,14 @@
     sexo enum('masculino', 'feminino', 'outro'),
     senha varchar(255) 
 );
+CREATE TABLE treino (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    data_treino DATE NOT NULL,
+    tipo_treino ENUM('musculacao', 'cardio', 'alongamento', 'pilates', 'yoga') NOT NULL,
+    duracao INT NOT NULL,
+    intensidade ENUM('baixa', 'moderada', 'alta') NOT NULL,
+    observacoes TEXT
+);
 
  
 CREATE TABLE professores (

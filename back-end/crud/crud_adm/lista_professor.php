@@ -60,7 +60,7 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC); //Recupera as linhas de consulta reto
         </div>
         <div class="text-right mt-3">
              <a href="../../../front-end/area_do_adm/cadastrar_professor.php" class="btn btn-primary">Cadastrar Novo Professor</a>
-             <a href="../../../front-end/area_do_adm/area_adm.php" class="btn btn-primary">Voltar para a página anterior</a>
+             <a href="../../../front-end/area_do_adm/area_adm.html" class="btn btn-primary">Voltar para a página anterior</a>
         </div>
     </div>
 </body>

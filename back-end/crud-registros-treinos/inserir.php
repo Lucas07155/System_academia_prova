@@ -10,7 +10,7 @@
 <body>
 
 <?php
-include "../conexao.php"; // Conexão com o banco de dados (PDO)
+require "conexao.php"; // Conexão com o banco de dados (PDO)
 
 // Dados recebidos do formulário
 $data_treino = $_POST['data_treino'];
@@ -37,17 +37,17 @@ try {
     // Executando a query
     if ($stmt->execute()) {
         // Redireciona para 'historicotreino.php' com mensagem de sucesso
-        header("Location: ../../front-end/historicotreinos.php?sucesso=" . urlencode("Treino registrado com sucesso!"));
+        header("Location: ../../front-end/area_do_aluno/historicotreinos.html?sucesso=" . urlencode("Treino registrado com sucesso!"));
         exit;
     } else {
         // Redireciona para 'historicotreino.php' com mensagem de erro
-        header("Location: ../../front-end/historicotreinos.php?erro=" . urlencode("Erro ao registrar treino."));
+        header("Location: ../../front-end/area_do_aluno/historicotreinos.php?erro=" . urlencode("Erro ao registrar treino."));
         exit;
     }
 
 } catch (PDOException $e) {
     // Caso ocorra um erro, redireciona para 'historicotreino.php' com mensagem de erro
-    header("Location: ../../front-end/historicotreinos.php?erro=" . urlencode("Erro ao registrar treino: " . $e->getMessage()));
+    header("Location: ../../front-end/area_do_aluno/historicotreinos.php?erro=" . urlencode("Erro ao registrar treino: " . $e->getMessage()));
     exit;
 }
 ?>
